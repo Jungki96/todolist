@@ -1,0 +1,142 @@
+/* 전체화면 */
+.thiIsAuto {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+.app-style {
+  padding: 100px;
+  display: flex;
+  gap: 12px;
+}
+
+.square-style {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 타이틀 */
+.title {
+  color: brown;
+  border: 4px solid rgb(170, 39, 39);
+  background-color: rgb(223, 220, 220);
+  height: 60px;
+  width: 1000px;
+  text-align: center;
+  margin: 30px auto;
+  border-width: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+/* 인풋박스 */
+.addBox {
+  color: rgb(31, 10, 109);
+  border: 4px solid rgb(69, 33, 196);
+  background-color: rgb(228, 207, 207);
+  height: 100px;
+  width: 1000px;
+  text-align: center;
+  margin: 30px auto;
+  border-width: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.form-label {
+  width: 100px;
+  height: 100px;
+  padding: 0 5px;
+}
+
+.add-input {
+  background-color: beige;
+  margin: auto;
+  border-width: 2px;
+  border-radius: 10px 5px;
+  height: 25px;
+}
+
+/* 리스트카드 */
+.todoBox {
+  color: rgb(31, 10, 109);
+  border: 4px solid rgb(69, 33, 196);
+  background-color: rgb(228, 207, 207);
+  height: 150px;
+  width: 300px;
+  border-width: 4px;
+  border-radius: 10px 10px;
+  padding: 12px 24px 24px 24px;
+  text-align: center;
+}
+
+.todoTitle {
+  font-size: xx-large;
+}
+
+.btnGroup {
+  border: none;
+  width: 50%;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.btnDelete {
+  border: 2px solid red;
+  background-color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btnComplete {
+  border: 2px solid green;
+  background-color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+/* 리스트 */
+.listGroup {
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.oneList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.listWorking {
+  font-weight: bold;
+  font-size: x-large;
+  margin: 20px 0 10px 0;
+}
+
+.listDone {
+  font-weight: bold;
+  font-size: x-large;
+  margin: 20px 0 10px 0;
+}
