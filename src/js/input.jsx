@@ -45,7 +45,7 @@ function Input({ setTodos, todos }) {
       </div>
       {/* <input type="submit" value="추가하기:submit"></input> */}
       <button type="submit" className="add-button">
-        추가하기:버튼
+        추가하기
       </button>
     </form>
   );
