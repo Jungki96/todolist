@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 
 let number = 3; // 밑에 있는 번호에 추가를 해주기 위해 필수되는 값
 function Input({ setTodos, todos }) {
