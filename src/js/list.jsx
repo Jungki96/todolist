@@ -24,7 +24,7 @@ function List({ todos, setTodos }) {
 
   return (
     <div className="listGroup">
-      <div className="listWorking">실행중</div>
+      <div className="listWorking">🥕🥕🥕🥕🥕</div>
       <div className="oneList">
         {todos.map((todo) => {
           if (!todo.done) {
@@ -42,7 +42,7 @@ function List({ todos, setTodos }) {
           }
         })}
       </div>
-      <div className="listDone">완료</div>
+      <div className="listDone">🧡💛💚💙💜</div>
       <div className="oneList">
         {todos.map((todo) => {
           if (todo.done) {

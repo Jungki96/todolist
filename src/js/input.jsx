@@ -25,7 +25,7 @@ function Input({ setTodos, todos }) {
   return (
     <form className="addBox" onSubmit={onSubmitHandler}>
       <div className="addGroup">
-        <label className="form-label">제목</label>
+        <label className="form-label">Title</label>
         <input
           type="text"
           name="title"
@@ -33,7 +33,7 @@ function Input({ setTodos, todos }) {
           className="add-input input-body"
           onChange={onMakeHandler}
         />
-        <label className="form-label">내용</label>
+        <label className="form-label">Description</label>
         <input
           type="text"
           name="desc"
