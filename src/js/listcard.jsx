@@ -9,7 +9,7 @@ function ListCard({ todo, onDeleteHanlder, onEditHandler }) {
       </div>
       <div className="btnGroup">
         <button className="btnDelete" onClick={() => onDeleteHanlder(todo.id)}>
-          삭제하기
+          삭제
         </button>
         <button className="btnComplete" onClick={() => onEditHandler(todo.id)}>
           {todo.done ? "취소" : "완료"}
