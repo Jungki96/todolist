@@ -8,14 +8,14 @@ const App = () => {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      title: "예시1",
-      desc: "리액트 기초를 공부해봅시다.",
+      title: "코드리뷰",
+      desc: "내가 만든 투두리스트 코드를 분석밑 해석하기",
       done: false,
     },
     {
       id: 2,
-      title: "예시2",
-      desc: "리액트 기초를 공부해봅시다.",
+      title: "책공부",
+      desc: "혼공스 9단원클래스를 공부하자",
       done: true,
     },
   ]);
