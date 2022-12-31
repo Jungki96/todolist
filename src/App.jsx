@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import "./js/App.css";
-import Title from "./js/title";
 import Input from "./js/input";
 import List from "./js/list";
+import Layout from "./shared/Layout";
 
 const App = () => {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      title: "코드리뷰",
-      desc: "내가 만든 투두리스트 코드를 분석 및 해석하기",
+      title: "221231",
+      desc: "Id Generator 활용이 안되서 2시간 삭제",
       done: false,
     },
     {
@@ -21,11 +21,10 @@ const App = () => {
   ]);
   console.log(todos);
   return (
-    <div className="thiIsAuto">
-      <Title />
+    <Layout>
       <Input setTodos={setTodos} todos={todos} />
       <List todos={todos} setTodos={setTodos} />
-    </div>
+    </Layout>
   );
 };
 export default App;
